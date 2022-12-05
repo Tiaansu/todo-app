@@ -163,7 +163,7 @@ function showTasks() {
                                 </p>
                                 <div class="accordion-btn-container">
                                     <button type="button" class="btn btn-outline-success task-btn task-btn-finish" data-task-id="${id}" data-bs-toggle="tooltip" data-bs-title="Mark task as Finished">
-                                        <i class="fa-solid fa-rotate-left task-btn-finish" data-task-id="${id}"></i>
+                                        <i class="fa-solid fa-check task-btn-finish" data-task-id="${id}"></i>
                                     </button>
                                     <button type="button" class="btn btn-outline-warning task-btn task-btn-edit" data-task-id="${id}" data-bs-toggle="tooltip" data-bs-title="Edit task">
                                         <i class="fa-solid fa-pen task-btn-edit" data-task-id="${id}"></i>
