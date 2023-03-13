@@ -210,7 +210,7 @@ function editTask(taskID) {
     if (Tasks[taskID].isFinished === true) {
         $('#alert-container').html(`
             <div class="alert alert-danger m-3 p-2" role="alert">
-                You can't edit a task that is already.
+                You can't edit a task that is already finished.
             </div>
         `);
 
